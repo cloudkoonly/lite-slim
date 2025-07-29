@@ -1,0 +1,31 @@
+{
+    "name": "lite-slim/lite-slim",
+    "description": "A lightweight api framework",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "firebase/php-jwt": "^6.8",
+        "php-di/php-di": "^7.0",
+        "vlucas/phpdotenv": "^5.5",
+        "monolog/monolog": "^3.0",
+        "ext-pdo": "*",
+        "php-curl-class/php-curl-class": "^11.0",
+        "slim/php-view": "^3.3",
+        "bryanjhv/slim-session": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liteslim\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1"
+        }
+    }
+}

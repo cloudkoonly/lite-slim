@@ -1,0 +1,6 @@
+# .gitignore
+.idea
+.env
+vendor
+logs
+!logs/.gitkeep
